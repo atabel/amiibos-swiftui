@@ -13,6 +13,16 @@
 		FF00EF0124C5CCA40075A9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF00EF0024C5CCA40075A9FB /* Assets.xcassets */; };
 		FF00EF0424C5CCA40075A9FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF00EF0324C5CCA40075A9FB /* Preview Assets.xcassets */; };
 		FF00EF0724C5CCA40075A9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF00EF0524C5CCA40075A9FB /* LaunchScreen.storyboard */; };
+		FF00EF1024C5D5350075A9FB /* amiibo-data.json in Resources */ = {isa = PBXBuildFile; fileRef = FF00EF0F24C5D5350075A9FB /* amiibo-data.json */; };
+		FF00EF1324C5D6230075A9FB /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00EF1224C5D6230075A9FB /* Amiibo.swift */; };
+		FF00EF1524C5D7430075A9FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00EF1424C5D7430075A9FB /* Game.swift */; };
+		FF30437C24C7576500BC9AF4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30437B24C7576500BC9AF4 /* Data.swift */; };
+		FF30437E24C770CF00BC9AF4 /* AmiiboDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30437D24C770CF00BC9AF4 /* AmiiboDetail.swift */; };
+		FF30438024C778B400BC9AF4 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30437F24C778B400BC9AF4 /* GameDetail.swift */; };
+		FF92954624CA035200AD075E /* AmiibosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92954524CA035200AD075E /* AmiibosList.swift */; };
+		FF92954824CA05A800AD075E /* GamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92954724CA05A800AD075E /* GamesList.swift */; };
+		FF92954A24CA080B00AD075E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92954924CA080B00AD075E /* SearchBar.swift */; };
+		FFE86CBD24D48E4D0016D848 /* YourLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE86CBC24D48E4D0016D848 /* YourLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		FF00EF0324C5CCA40075A9FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF00EF0624C5CCA40075A9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF00EF0824C5CCA40075A9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF00EF0F24C5D5350075A9FB /* amiibo-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "amiibo-data.json"; path = "../../../../../Downloads/amiibo-data.json"; sourceTree = "<group>"; };
+		FF00EF1224C5D6230075A9FB /* Amiibo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		FF00EF1424C5D7430075A9FB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FF30437B24C7576500BC9AF4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FF30437D24C770CF00BC9AF4 /* AmiiboDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetail.swift; sourceTree = "<group>"; };
+		FF30437F24C778B400BC9AF4 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		FF92954524CA035200AD075E /* AmiibosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiibosList.swift; sourceTree = "<group>"; };
+		FF92954724CA05A800AD075E /* GamesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesList.swift; sourceTree = "<group>"; };
+		FF92954924CA080B00AD075E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FFE86CBC24D48E4D0016D848 /* YourLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +76,17 @@
 		FF00EEF924C5CCA30075A9FB /* amiibos */ = {
 			isa = PBXGroup;
 			children = (
+				FF00EF1124C5D6010075A9FB /* models */,
+				FF00EF0E24C5D4F20075A9FB /* resources */,
 				FF00EEFA24C5CCA30075A9FB /* AppDelegate.swift */,
 				FF00EEFC24C5CCA30075A9FB /* SceneDelegate.swift */,
+				FF92954924CA080B00AD075E /* SearchBar.swift */,
 				FF00EEFE24C5CCA30075A9FB /* ContentView.swift */,
+				FFE86CBC24D48E4D0016D848 /* YourLists.swift */,
+				FF92954724CA05A800AD075E /* GamesList.swift */,
+				FF92954524CA035200AD075E /* AmiibosList.swift */,
+				FF30437D24C770CF00BC9AF4 /* AmiiboDetail.swift */,
+				FF30437F24C778B400BC9AF4 /* GameDetail.swift */,
 				FF00EF0024C5CCA40075A9FB /* Assets.xcassets */,
 				FF00EF0524C5CCA40075A9FB /* LaunchScreen.storyboard */,
 				FF00EF0824C5CCA40075A9FB /* Info.plist */,
@@ -73,6 +101,24 @@
 				FF00EF0324C5CCA40075A9FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF00EF0E24C5D4F20075A9FB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF00EF0F24C5D5350075A9FB /* amiibo-data.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FF00EF1124C5D6010075A9FB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FF00EF1224C5D6230075A9FB /* Amiibo.swift */,
+				FF00EF1424C5D7430075A9FB /* Game.swift */,
+				FF30437B24C7576500BC9AF4 /* Data.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +148,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Abel Toledano";
 				TargetAttributes = {
 					FF00EEF624C5CCA30075A9FB = {
@@ -133,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF00EF1024C5D5350075A9FB /* amiibo-data.json in Resources */,
 				FF00EF0724C5CCA40075A9FB /* LaunchScreen.storyboard in Resources */,
 				FF00EF0424C5CCA40075A9FB /* Preview Assets.xcassets in Resources */,
 				FF00EF0124C5CCA40075A9FB /* Assets.xcassets in Resources */,
@@ -146,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE86CBD24D48E4D0016D848 /* YourLists.swift in Sources */,
+				FF92954624CA035200AD075E /* AmiibosList.swift in Sources */,
+				FF30438024C778B400BC9AF4 /* GameDetail.swift in Sources */,
+				FF30437E24C770CF00BC9AF4 /* AmiiboDetail.swift in Sources */,
+				FF00EF1324C5D6230075A9FB /* Amiibo.swift in Sources */,
+				FF30437C24C7576500BC9AF4 /* Data.swift in Sources */,
+				FF92954824CA05A800AD075E /* GamesList.swift in Sources */,
+				FF00EF1524C5D7430075A9FB /* Game.swift in Sources */,
 				FF00EEFB24C5CCA30075A9FB /* AppDelegate.swift in Sources */,
 				FF00EEFD24C5CCA30075A9FB /* SceneDelegate.swift in Sources */,
+				FF92954A24CA080B00AD075E /* SearchBar.swift in Sources */,
 				FF00EEFF24C5CCA30075A9FB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +248,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +309,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
