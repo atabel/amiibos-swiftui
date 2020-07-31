@@ -1,6 +1,8 @@
 # Amiibos app in SwiftUI
 
-Inspired by [@pladaria](https://github.com/pladaria) amiibos [React app](https://github.com/pladaria/amiibo-webapp) but rewritten in SwiftUI.
+![app gif](./amiibo-swiftui.gif)
+
+Inspired by [@pladaria](https://github.com/pladaria)'s amiibos [React app](https://github.com/pladaria/amiibo-webapp) but rewritten in SwiftUI.
 
 # Development
 
